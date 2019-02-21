@@ -1,0 +1,16 @@
+body{
+     text-align: center;
+     background-color: #456;
+}
+.grass{
+     width: 64px;
+     height: 64px;
+     background-image: url(grass.png);
+     background-repeat: no-repeat;
+     display: inline-block;
+}
+.miner{
+     width: 64px;
+     height: 64px;
+     background-image: url(miner.png)
+}
