@@ -7,10 +7,10 @@ class Ball{
     this.speed = speed;
   }
   render(){
-    var html = `<div class="ball ball--${this.color} ">
+    var html = `<div class="ball ball--${this.color}" style="position: absolute; left: ${this.x}px; top:${this.y}px;" >
         <div>  ${this.number} </div>
 
     </div>`
-    document.write(html)
+    document.getElementById("table").innerHTML += html;
   }
 }
