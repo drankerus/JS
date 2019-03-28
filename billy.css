@@ -8,6 +8,8 @@ body {
     border-radius:
         50%;
     display: inline-block;
+    position: relative;
+
 }
 
 .ball--yellow {
@@ -64,6 +66,8 @@ body {
 
 #table {
     display: block;
+    width: 1000px;
+    height: 550px;
 
     position: absolute;
     top: 50%;
